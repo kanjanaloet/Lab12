@@ -11,9 +11,7 @@ ${SUCCESS}    http://${SERVER}/cs.kku.ac.th
 
 Open Event Registration Page
     Open Browser    ${WELCOME}    ${BROWSER}
-	Set Selenium Speed    ${DELAY}
-
-Success
-	Click Button    registerButton
+    Set Selenium Speed    ${DELAY}
+    Click Button    btnK
 
 	
